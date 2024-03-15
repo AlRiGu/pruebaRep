@@ -60,6 +60,9 @@ public class Date {
     this.month = month;
     this.year = year;
   }
+  public void methodAddedByOwner(){
+    System.out.println("Method added by the owner");
+  }
 
   /**
    * Validates the date according to the predefined rules: the year must be within 1900 to 2050, the
